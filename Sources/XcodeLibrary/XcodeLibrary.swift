@@ -3,4 +3,8 @@ public struct XcodeLibrary {
 
     public init() {
     }
+    
+    public func test() {
+        print("Test Completed!")
+    }
 }
