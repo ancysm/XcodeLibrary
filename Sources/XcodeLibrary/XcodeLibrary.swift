@@ -4,7 +4,7 @@ public struct XcodeLibrary {
     public init() {
     }
     
-    public func test() {
-        print("Test Completed!")
+    public func test() -> String {
+        return "allen's first library"
     }
 }
