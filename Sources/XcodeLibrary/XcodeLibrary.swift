@@ -8,3 +8,20 @@ public struct XcodeLibrary {
         return "allen's first library"
     }
 }
+
+public class AncyLibrary {
+    
+    private var mName:String!
+    private var mAge:Int32!
+    
+    init(name:String, age:Int32) {
+        mName = name
+        mAge = age
+    }
+    
+    public func getPersonalDetails() -> String {
+        return mName + mAge
+    }
+}
+
+
