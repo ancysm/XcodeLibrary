@@ -20,7 +20,7 @@ public class AncyLibrary {
     }
     
     public func getPersonalDetails() -> String {
-        return mName + mAge
+        return mName + String(mAge)
     }
 }
 
