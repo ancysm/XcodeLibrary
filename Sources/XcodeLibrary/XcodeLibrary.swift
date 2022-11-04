@@ -14,7 +14,7 @@ public class AncyLibrary {
     private var mName:String!
     private var mAge:Int32!
     
-    init(name:String, age:Int32) {
+    public init(name:String, age:Int32) {
         mName = name
         mAge = age
     }
